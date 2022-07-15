@@ -1,0 +1,19 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    min-height: 100vh;
+    color: rgb(255, 248, 248);
+    background-color: rgb(14, 15, 17);
+    font-family: 'Clash Display', sans-serif;
+}
+
+.bg-primary {
+    background-color: rgb(255, 46, 46);
+}
+
+.bg-secondary {
+    background-color: rgb(23, 24, 27);
+}
